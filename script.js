@@ -1,11 +1,11 @@
-const sidebar = document.getElementById("sidebar")
-const openSidebar = document.getElementById("openSidebar")
-const closeSidebar = document.getElementById("closeSidebar")
+let sidebar = document.getElementById("sidebar")
+let openSidebar = document.getElementById("openSidebar")
+let closeSidebar = document.getElementById("closeSidebar")
 
-openSidebar.addEventListener("click", (e) => {
-    sidebar.style.display = "flex !important"
+openSidebar.addEventListener('click', () => {
+    sidebar.style.display = "block"
 })
 
-closeSidebar.addEventListener("click", (e) => {
-    sidebar.style.display = "none !important"
+closeSidebar.addEventListener("click", () => {
+    sidebar.style.display = "none"
 })

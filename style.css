@@ -31,8 +31,6 @@ body{
 }
 .navbar > img{
     width: 1.5em;
-    user-select: none;
-    pointer-events: none;
     height: 1.3em;
     object-fit: contain;
     cursor: pointer;
@@ -55,7 +53,6 @@ body{
     /* display: flex; */
     gap: 9em;
     align-items: flex-start;
-    transition: 1s;
     display: none;
 }
 .navbar__links.mobile header{
